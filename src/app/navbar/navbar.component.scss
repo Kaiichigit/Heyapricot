@@ -1,0 +1,15 @@
+.navbar {
+  background-color: purple;
+  height: 100%;
+  width: 7.5rem;
+
+  &.expanded {
+    animation: widthDelay 1s ease 0.5s forwards; /* Animation with delay */
+  }
+}
+
+@keyframes widthDelay {
+    to {
+      width: 22.5rem;
+    }
+  }
